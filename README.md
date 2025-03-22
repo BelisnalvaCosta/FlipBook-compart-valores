@@ -6,6 +6,7 @@ Pojeto feito na IDE Visual Studio Code, usei a linguagem: Html, Javascript e CSS
     <span>Projeto de desafio - FlipBook compartilhando e Agregando Valor</span>
 </h1>
 Este artigo tem como objetivo agregar valores compartilhando conhecimento e Bootcamps para todos(as) independente de sua área profissional e também para iniciantes na área de TI.
+ https://belisnalvacosta.github.io/FlipBook-compart-valores/
 
 ![Bootc-gratuito-Bradesco](https://github.com/user-attachments/assets/850c7495-723a-46e6-b139-c3479c47f75c)
 
