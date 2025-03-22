@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://127.0.0.1:5501/src/index.html -->
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootcamp gratuitos na DIO - Cadastre-se</title>
+    <link rel="stylesheet" href="./Bootcamp-gratuito_files/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ead2e4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+        }
+
+        .flipbook {
+            width: 90%;
+            max-width: 800px;
+            height: 90vh;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .flipbook .header {
+            background: #63eae6;
+            color: #1c0c58;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .flipbook .content {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+        }
+
+        .flipbook .content img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .flipbook .content-text {
+            text-align: justify;
+        }
+
+        .flipbook .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background: #f8f9fa;
+            border-top: 1px solid #ddd;
+        }
+
+        .footer button {
+            background: #63beec;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+
+        .footer button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        .footer button:hover:not(:disabled) {
+            background: #6de3e3;
+        }
+
+        .footer .page-info {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flipbook">
+        <div class="header">
+            <h1>Agregando Valor na Carreira de TI com o Bootcamp Bradesco</h1>
+            <h3>Venham participar, junte-se nós!</h3>        
+        </div>
+        <div class="content" id="content"><h2><p>Seja Bem vindo a mais uma jornada sensacional!</p><br><a href="https://www.dio.me/bootcamp/bradesco-java-cloud-native?ref=F1LSL5WNG1" target="_blank">Bootcamp Bradesco</a><br><p>O que você irá aprender:</p><br><p>✅ Cursos, Desafios e Projetos práticos que contam com Certificados de Conclusão.</p><br><p><a href="https://belisnalvacosta.github.io/add-value/" alt="projeto github">Page no github</a></p></h2></div>
+        <div class="footer">
+            <button id="prev-btn" disabled=""><i class="fas fa-arrow-left"></i> Anterior</button>
+            <div class="page-info" id="page-info">Página 1 de 7</div>
+            <button id="next-btn">Próximo <i class="fas fa-arrow-right"></i></button>
+        </div>
+    </div>
+
+    <script>
+        const pages = [
+            "<h2><p>Seja Bem vindo a mais uma jornada sensacional!</p><br><a href='https://www.dio.me/bootcamp/bradesco-java-cloud-native?ref=F1LSL5WNG1' target='_blank'>Bootcamp Bradesco</a><br><p>O que você irá aprender:</p><br><p>✅ Cursos, Desafios e Projetos práticos que contam com Certificados de Conclusão.</p><br><p><a href='https://belisnalvacosta.github.io/add-value/' alt='projeto github'>Page no github</a></p>",
+            "<h2>Sumário</h2><ul><br><li>1. Introdução</li><li> 2. Como o Bootcamp Bradesco Agrega Valor?</li><li>3. Confiabilidade</li><li>4. Conclusão</li><li>5. Fonte</li></ul>",            
+            "<h2>Introdução</h2><br><p>No mundo dinâmico da Tecnologia da Informação (TI), agregar valor é um diferencial essencial para se destacar no mercado de trabalho. Mas o que significa, de fato, agregar valor? No contexto profissional, trata-se de aprimorar conhecimentos, desenvolver habilidades e aplicar soluções inovadoras que gerem impacto positivo para empresas e clientes.</p><br><p>Uma das formas mais eficientes de agregar valor é investir em qualificação e aprendizado contínuo. Nesse sentido, programas de formação especializados, como o Bootcamp Bradesco - Java Cloud Native, surgem como excelentes oportunidades para profissionais que desejam evoluir na área de TI.</p>",
+            "<h2>Como o Bootcamp Bradesco Agrega Valor?</h2><br><p>1.	Aprendizado Prático e Atualizado</p><p>O Bootcamp Bradesco oferece uma formação completa em Java Cloud Native, abordando tecnologias essenciais para o desenvolvimento de aplicações escaláveis e de alta disponibilidade. Com 90 horas de conteúdo, o programa cobre desde conceitos fundamentais até práticas avançadas com Spring Boot e Red Hat OpenShift.</p><br><p>2.	Certificação e Reconhecimento no Mercado<p><p>Ao concluir o Bootcamp, os participantes recebem certificação, um grande diferencial no currículo. Esse certificado pode abrir portas para novas oportunidades em empresas que buscam profissionais capacitados em tecnologia cloud.</p><br><p>3.	Oportunidade de Networking</p><p>Durante o Bootcamp, os alunos têm a chance de interagir com especialistas, instrutores e outros profissionais da área, ampliando sua rede de contatos. Esse networking é valioso tanto para troca de experiências quanto para futuras oportunidades de carreira.<p/><br><p>4.	Acesso a Projetos Reais</p><p>Um grande diferencial do programa é a possibilidade de colocar em prática os conhecimentos adquiridos por meio de projetos e desafios reais. Isso não só fortalece a confiança do profissional, como também agrega experiência ao seu portfólio.</p><br><p>5.	Visibilidade para Recrutadores</p><p>O Bootcamp Bradesco também se destaca pela conexão com empresas parceiras da DIO (Digital Innovation One). Os participantes têm seus perfis disponíveis na plataforma Talent Match, o que pode facilitar processos seletivos e aumentar as chances de contratação.</p>",                     
+            "<h2>Confiabilidade</h2><br><p>Na plataforma da DIO.me, sinto-me a vontade para construir projetos práticos, com base nas orientações dos Experts e professores desta plataforma tão renomada e reconhecida por muitas parceiras nacionais e internacionais.</p>",
+            "<h2>Conclusão</h2><br><p>Agregar valor na carreira de TI significa estar em constante evolução e adaptar-se às novas demandas do mercado. O Bootcamp Bradesco é uma iniciativa que oferece capacitação de alto nível, preparando profissionais para desafios reais e oportunidades promissoras.</p><br><p>Se você deseja dar um passo importante na sua jornada profissional, invista em conhecimento e faça parte desse programa transformador!</p>",
+            "<p>Agradeço a equipe DIO.me, colaboradores, parceiros - Bradesco e Victor Haruo (Campus Expert) por esta oportunidade de compartilhar os meus conhecimentos adquiridos ao longo desses anos na plataforma DIO.me!</p><br><p>_____________________________________</p><br><p><h4>Fonte: Mentorias Campus Expert.</p>",
+        ];
+
+        let currentPage = 0;
+        const content = document.getElementById('content');
+        const prevBtn = document.getElementById('prev-btn');
+        const nextBtn = document.getElementById('next-btn');
+        const pageInfo = document.getElementById('page-info');
+
+        function updateContent() {
+            content.innerHTML = pages[currentPage];
+            pageInfo.textContent = `Página ${currentPage + 1} de ${pages.length}`;
+            prevBtn.disabled = currentPage === 0;
+            nextBtn.disabled = currentPage === pages.length - 1;
+        }
+
+        prevBtn.addEventListener('click', () => {
+            if (currentPage > 0) {
+                currentPage--;
+                updateContent();
+            }
+        });
+
+        nextBtn.addEventListener('click', () => {
+            if (currentPage < pages.length - 1) {
+                currentPage++;
+                updateContent();
+            }
+        });
+
+        updateContent();
+    </script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
