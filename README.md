@@ -3,7 +3,7 @@ Pojeto feito na IDE Visual Studio Code, usei a linguagem: Html, Javascript e CSS
 <h1>
     <a href="https://www.dio.me/">
      <img align="center" width="40px" src="https://hermes.digitalinnovation.one/assets/diome/logo-minimized.png"></a>
-    <span>Projeto de desafio Dio Campus Expert - FlipBook compartilahndo e Agregamdo Valor</span>
+    <span>Projeto de desafio - FlipBook compartilhando e Agregando Valor</span>
 </h1>
 Este artigo tem como objetivo agregar valores compartilhando conhecimento e Bootcamps para todos(as) independente de sua área profissional e também para iniciantes na área de TI.
 
