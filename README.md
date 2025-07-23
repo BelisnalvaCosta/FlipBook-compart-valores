@@ -44,4 +44,4 @@ e outro projeto https://belisnalvacosta.github.io/add-value/
   
 <div align="center">Feito com 💙 por <a href="https://github.com/BelisnalvaCosta/">Bella</a>.</div>
 
-[^1]: Este peojeto é referente ao 3º desafio que faz parte de uma jornada de aprendizado no #DIOCampusExpert11).
+[^1]: Este projeto é referente ao 3º desafio que faz parte de uma jornada de aprendizado no #DIOCampusExpert11).
