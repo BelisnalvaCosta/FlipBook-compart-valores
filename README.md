@@ -1,4 +1,4 @@
-Pojeto feito na IDE Visual Studio Code, usei a linguagem: Html, Javascript e CSS [^1].
+Pojeto feito na IDE Visual Studio Code, usei a linguagem: Html, Javascript e CSS [^1]
 
 <h1>
     <a href="https://www.dio.me/">
