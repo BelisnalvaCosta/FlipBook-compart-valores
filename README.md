@@ -1,6 +1,6 @@
 # FlipBook Compartilhar Valores
 
-Pojeto feito na IDE Visual Studio Code, usei a linguagem: Html, Javascript e CSS. [^1].
+Pojeto feito na IDE Visual Studio Code, usei a linguagem: Html, Javascript e CSS [^1]
 
 <h1>
     <a href="https://www.dio.me/">
@@ -43,4 +43,5 @@ e outro projeto https://belisnalvacosta.github.io/add-value/
 - [Mentoria DIO Campus Expert 11]
   
 <div align="center">Feito com 💙 por <a href="https://github.com/BelisnalvaCosta/">Bella</a>.</div>
+
 [^1]: Este peojeto é referente ao 3º desafio que faz parte de uma jornada de aprendizado no #DIOCampusExpert11).
